@@ -1,0 +1,34 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+}
+
+h1, h2, h3 {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+}
+
+h2{
+    color: #37008E;
+}
+
+header h2{
+    color: #f3d9dc;
+}
+
+footer {
+    background-image: linear-gradient(#f3d9dc, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #37008e,#2e294e, #a72593);
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
