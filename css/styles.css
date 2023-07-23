@@ -37,3 +37,8 @@ footer {
 .navbar {
     background-color: #2E294E;
 }
+
+.btn-custom {
+    background-color: #a72593;
+    color: white;
+}
