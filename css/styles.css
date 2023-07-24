@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Anonymous Pro", monospace;
+    font-family: "DM Sans", sans-serif;
     font-weight: 700;
 }
 
@@ -13,24 +13,32 @@ h2{
     font-size: 1.85rem;
 }
 
-header h2{
-    color: #21252a;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 200;
+#home-hero {
+    min-height: 750px;
+    background-image:url(../img/hero.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#page-hero {
+    max-height: 375px;
+    background-color: black;
+    color: white;
+}
+
+#hero-text {
+    min-height: 100vh;
+}
+
+.custom-nav-item {
     font-size: 1.25rem;
+    padding-left: 20%;
 }
 
-.site-footer {
-    background-image: linear-gradient(#e6d6ff, white);
-    padding: 20px 0;
-    border-top: solid #e6d6ff;
-}
-
-.jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(#e6d6ff, white);
-    color: #37008E;
+.breadcrumb {
+    background-color: white;
 }
 
 .row-content {
@@ -39,6 +47,8 @@ header h2{
     min-height: 200px;
 }
 
-.navbar {
-    background-color: #37008E;
+.site-footer {
+    background-image: linear-gradient(#e6d6ff, white);
+    padding: 20px 0;
+    border-top: solid #e6d6ff;
 }
