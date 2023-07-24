@@ -14,22 +14,23 @@ h2{
 }
 
 header h2{
-    color: #e6d6ff;
+    color: #21252a;
     font-family: "DM Sans", sans-serif;
     font-weight: 200;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
 }
 
 .site-footer {
     background-image: linear-gradient(#e6d6ff, white);
     padding: 20px 0;
+    border-top: solid #e6d6ff;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #0096dc,#37008e, #a83ea2);
-    color: white;
+    background-image: linear-gradient(#e6d6ff, white);
+    color: #37008E;
 }
 
 .row-content {
@@ -39,5 +40,5 @@ header h2{
 }
 
 .navbar {
-    background-color: #37008e;
+    background-color: #37008E;
 }
